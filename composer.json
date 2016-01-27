@@ -1,0 +1,25 @@
+{
+    "name": "klever/heimdall",
+    "authors": [
+        {
+            "name": "Tim Klever",
+            "email": "tim@timisawesome.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Klever\\Heimdall\\": "src/Heimdall/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Klever\\HeimdallTest\\": "test/HeimdallTest"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5",
+        "phpunit/phpcov": "^3",
+        "humbug/humbug": "@dev"
+    }
+}
